@@ -15,6 +15,10 @@ This is a webpack template for build multiple static pages website
 ```shell 
 npm i
 ```
+or
+```shell
+npm install
+```
 
 ### development
 
