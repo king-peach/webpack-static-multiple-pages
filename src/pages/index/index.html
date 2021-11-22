@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width,user-scalable=0,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0">
+  <title>首页</title>
+</head>
+<body>
+  <div>This is index page</div>
+  <!-- 静态资源采用webpack变量形式引入 -->
+  <img src="<%= require('images/bg.jpg') %>" alt="bg">
+  <div class="sass-example">this is sass style example !</div>
+</body>
+</html>
